@@ -1,0 +1,21 @@
+/* Error: Undefined mixin.
+ *    ,
+ * 9  | /     @include mediaquery-mobile(){
+ * 10 | |        margin-right: 12px;
+ * 11 | |   padding: 0px;
+ * 12 | |   height: 30vh;
+ * 13 | |   width: 90vw;
+ * 14 | \     }
+ *    '
+ *   scss\paginas.scss\empresa.scss 9:5  root stylesheet */
+
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Undefined mixin.\a    \2577 \a 9  \2502  \250c      @include mediaquery-mobile(){\a 10 \2502  \2502         margin-right: 12px;\a 11 \2502  \2502    padding: 0px;\a 12 \2502  \2502    height: 30vh;\a 13 \2502  \2502    width: 90vw;\a 14 \2502  \2514      }\a    \2575 \a   scss\\paginas.scss\\empresa.scss 9:5  root stylesheet";
+}

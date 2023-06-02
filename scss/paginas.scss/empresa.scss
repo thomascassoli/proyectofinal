@@ -1,0 +1,67 @@
+.empresa {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 150px;
+  }
+  .rounded-5{
+    @include mediaquery-mobile(){
+       margin-right: 12px;
+  padding: 0px;
+  height: 30vh;
+  width: 90vw;
+    }
+  }
+
+  
+  .distric {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: $color-titulo;
+    padding: 18px;
+  }
+  
+  .empresa-familiar {
+    font-size: 25px;
+    padding: 12px;
+    @include mediaquery-mobile(){
+    display: grid;
+		font-size: 30px;
+		text-transform: uppercase;
+		padding: 10px;
+		margin: 30px;
+    }
+  }
+  
+  #empobjvis {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    @include mediaquery-mobile(){
+    display: grid;
+		row-gap: 3vh;
+    }
+  
+    .logo-medio {
+      padding: 12px;
+    }
+  
+    .objetivo {
+      font-size: 35px;
+      padding: 20px;
+      border-radius: 12px;
+      width: 200px;
+      margin: 14px;
+    }
+  
+    .vision {
+      font-size: 35px;
+      padding: 20px;
+      border-radius: 12px;
+      width: 200px;
+      margin: 14px;
+    }
+  }

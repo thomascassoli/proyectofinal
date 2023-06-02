@@ -1,0 +1,31 @@
+.marcas{
+   
+    display: flex;
+    flex-direction:row ;
+    justify-content: center;
+    padding:150px 
+    }
+
+.text-indexx{
+    @include mediaquery-mobile(){
+        margin: 9%;
+        overflow-x: hidden;
+        width: 69%;
+        padding: 0%;
+        margin-left: 4%;
+      }
+    padding: 9px;
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 40%;
+    
+        
+}
+    
+
+
+
+

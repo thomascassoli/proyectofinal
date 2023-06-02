@@ -1,0 +1,96 @@
+
+.servic {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	padding: 150px;
+}
+
+#cajasServicio {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: stretch;
+	padding: 20px;
+	gap: 70px;
+	@include mediaquery-mobile(){
+	display: grid;
+	}
+}
+.servimg {
+	@include mediaquery-mobile(){
+    margin-left: 0px;
+    width:  100%;
+    height: 200px;
+	}
+}
+
+
+.caja { 
+	padding: 20px;
+	border-radius: 12px;
+	width: 200px;
+	margin: 12px;
+	background-color: $background-color_1;
+	color: $color-titulo;
+}
+.card-tittle {
+	font-size: 25px;
+	color: $color_2;
+}
+.sale-dos {
+	width: 50px;
+	height: 50px;
+	padding: 8px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin: 20%;
+}
+.caja-dos {
+	padding: 20px;
+	border-radius: 12px;
+	width: 200px;
+	margin: 14px;
+	background-color: $background-color_1;
+	color: $color-titulo;
+}
+h2 {
+	color: $color-titulo;
+}
+.text-red {
+	color: $color_2;
+	color: $color_2;
+}
+.maps-tres {
+	width: 50px;
+	height: 50px;
+	padding: 8px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin: 20%;
+}
+.caja-tres {
+	padding: 20px;
+	border-radius: 12px;
+	width: 200px;
+	margin: 16px;
+	background-color: $background-color_1;
+	color: $color-titulo;
+	justify-content: center;
+}
+.hora-cuatro {
+	width: 50px;
+	height: 50px;
+	padding: 8px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin: 20%;
+	@include mediaquery-mobile(){
+	.card-img-top {
+		width: 288px;
+	}
+}
+}

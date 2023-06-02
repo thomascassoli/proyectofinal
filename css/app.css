@@ -1,0 +1,494 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+* {
+  font-family: "poppins", sans-serif;
+}
+
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  background-color: black;
+  color: white;
+  overflow-x: hidden;
+}
+
+header {
+  background-color: peru;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 99;
+}
+@media (max-width: 660px) {
+  header {
+    background-color: peru;
+    width: 100vw;
+    z-index: 99%;
+    width: 100vw;
+  }
+}
+header img {
+  width: 100px;
+}
+header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+}
+header ul li {
+  text-decoration: none;
+  padding: 0px 12px;
+}
+header ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+.navbar-collapse {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-left: 47vw;
+  font-size: 18px;
+}
+
+.navbar-brand {
+  font-size: 30px;
+  font-weight: bold;
+}
+@media (max-width: 660px) {
+  .navbar-brand {
+    font-size: 22px;
+    font-weight: bold;
+  }
+}
+
+.btn {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+@media (max-width: 660px) {
+  .btn {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+@media (max-width: 660px) {
+  .btn .navbar-toggler:hover {
+    transform: rotate(555deg);
+  }
+}
+
+h2 {
+  color: red;
+}
+
+footer {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 10px;
+}
+
+@media (max-width: 660px) {
+  .find {
+    font-size: 14px;
+    margin: 0px;
+  }
+}
+
+@media (max-width: 660px) {
+  .imglogo {
+    height: 64px;
+    width: 64px;
+  }
+}
+
+.text-index {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 150px;
+  margin: 29px;
+}
+@media (max-width: 660px) {
+  .text-index {
+    margin: 29px;
+  }
+}
+
+.index-dos {
+  font-size: 50px;
+  text-transform: uppercase;
+  padding: 12px;
+}
+@media (max-width: 660px) {
+  .index-dos {
+    display: grid;
+    font-size: 30px;
+    text-transform: uppercase;
+    padding: 10px;
+    margin: 30px;
+  }
+}
+
+.empresa-familiar {
+  padding: 12px;
+}
+
+.amorti {
+  padding: 12px;
+  width: 500px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-left: 1300px;
+}
+@media (max-width: 660px) {
+  .amorti {
+    margin-left: 9%;
+    width: 240px;
+    height: 200px;
+  }
+}
+
+.empresa {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 150px;
+}
+
+@media (max-width: 660px) {
+  .rounded-5 {
+    margin-right: 12px;
+    padding: 0px;
+    height: 30vh;
+    width: 90vw;
+  }
+}
+
+.distric {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: red;
+  padding: 18px;
+}
+
+.empresa-familiar {
+  font-size: 25px;
+  padding: 12px;
+}
+@media (max-width: 660px) {
+  .empresa-familiar {
+    display: grid;
+    font-size: 30px;
+    text-transform: uppercase;
+    padding: 10px;
+    margin: 30px;
+  }
+}
+
+#empobjvis {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+}
+@media (max-width: 660px) {
+  #empobjvis {
+    display: grid;
+    row-gap: 3vh;
+  }
+}
+#empobjvis .logo-medio {
+  padding: 12px;
+}
+#empobjvis .objetivo {
+  font-size: 35px;
+  padding: 20px;
+  border-radius: 12px;
+  width: 200px;
+  margin: 14px;
+}
+#empobjvis .vision {
+  font-size: 35px;
+  padding: 20px;
+  border-radius: 12px;
+  width: 200px;
+  margin: 14px;
+}
+
+.marcas {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 150px;
+}
+
+.text-indexx {
+  padding: 9px;
+  width: 500px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 40%;
+}
+@media (max-width: 660px) {
+  .text-indexx {
+    margin: 9%;
+    overflow-x: hidden;
+    width: 69%;
+    padding: 0%;
+    margin-left: 4%;
+  }
+}
+
+.servic {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 150px;
+}
+
+#cajasServicio {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+  padding: 20px;
+  gap: 70px;
+}
+@media (max-width: 660px) {
+  #cajasServicio {
+    display: grid;
+  }
+}
+
+@media (max-width: 660px) {
+  .servimg {
+    margin-left: 0px;
+    width: 100%;
+    height: 200px;
+  }
+}
+
+.caja {
+  padding: 20px;
+  border-radius: 12px;
+  width: 200px;
+  margin: 12px;
+  background-color: palegoldenrod;
+  color: red;
+}
+
+.card-tittle {
+  font-size: 25px;
+  color: brown;
+}
+
+.sale-dos {
+  width: 50px;
+  height: 50px;
+  padding: 8px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 20%;
+}
+
+.caja-dos {
+  padding: 20px;
+  border-radius: 12px;
+  width: 200px;
+  margin: 14px;
+  background-color: palegoldenrod;
+  color: red;
+}
+
+h2 {
+  color: red;
+}
+
+.text-red {
+  color: brown;
+  color: brown;
+}
+
+.maps-tres {
+  width: 50px;
+  height: 50px;
+  padding: 8px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 20%;
+}
+
+.caja-tres {
+  padding: 20px;
+  border-radius: 12px;
+  width: 200px;
+  margin: 16px;
+  background-color: palegoldenrod;
+  color: red;
+  justify-content: center;
+}
+
+.hora-cuatro {
+  width: 50px;
+  height: 50px;
+  padding: 8px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 20%;
+}
+@media (max-width: 660px) {
+  .hora-cuatro .card-img-top {
+    width: 288px;
+  }
+}
+
+.formulario-1 {
+  margin-top: 20px;
+}
+
+.formulario-2 {
+  margin-top: 40px;
+}
+
+.formulario-3 {
+  margin-top: 60px;
+}
+
+.formulario-4 {
+  margin-top: 80px;
+}
+
+.formulario-5 {
+  margin-top: 100px;
+}
+
+.contactenos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 150px;
+}
+
+#contactenoS {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 660px) {
+  #contactenoS {
+    overflow: hidden;
+  }
+}
+
+@media (max-width: 660px) {
+  .fomrucontact {
+    text-align: center;
+  }
+}
+
+.mb-4 {
+  text-align: center;
+  padding: 9px;
+  font-size: 19px;
+}
+@media (max-width: 660px) {
+  .mb-4 {
+    text-align: center;
+    padding: 9px;
+    font-size: 19px;
+  }
+}
+
+.accordion {
+  width: 500px;
+}
+@media (max-width: 660px) {
+  .accordion {
+    width: 300px;
+  }
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+}
+@media (max-width: 660px) {
+  .formulario {
+    width: 100%;
+  }
+}
+
+.text,
+.password,
+.email,
+.file {
+  margin: 2%;
+}
+
+.email {
+  padding: 8%;
+}
+
+.mapas {
+  padding: 12%;
+}
+@media (max-width: 660px) {
+  .mapas {
+    width: 90%;
+    height: 900%;
+  }
+}
+
+.numero {
+  margin-left: 34%;
+}
+
+@media (max-width: 660px) {
+  .map {
+    width: 100%;
+    height: 900%;
+  }
+}
+
+.logowpp {
+  width: 60px;
+  height: 60px;
+  padding: 10px;
+  float: left;
+}
+
+.numerocontacto {
+  margin-right: 12%;
+  display: block;
+  padding: 3%;
+}
+
+/*# sourceMappingURL=app.css.map */
