@@ -150,7 +150,7 @@ footer {
   padding: 12px;
 }
 
-.amorti {
+.amortiguador {
   padding: 12px;
   width: 500px;
   display: flex;
@@ -160,7 +160,7 @@ footer {
   margin-left: 1300px;
 }
 @media (max-width: 660px) {
-  .amorti {
+  .amortiguador {
     margin-left: 9%;
     width: 240px;
     height: 200px;
