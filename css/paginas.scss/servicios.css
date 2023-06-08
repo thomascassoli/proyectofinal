@@ -2,7 +2,8 @@
  *    ,
  * 16 | /     @include mediaquery-mobile(){
  * 17 | |     display: grid;
- * 18 | \     }
+ * 18 | |     
+ * 19 | \     }
  *    '
  *   scss\paginas.scss\servicios.scss 16:2  root stylesheet */
 
@@ -14,5 +15,5 @@ body::before {
   padding: 1em;
   margin-bottom: 1em;
   border-bottom: 2px solid black;
-  content: "Error: Undefined mixin.\a    \2577 \a 16 \2502  \250c      @include mediaquery-mobile(){\a 17 \2502  \2502      display: grid;\a 18 \2502  \2514      }\a    \2575 \a   scss\\paginas.scss\\servicios.scss 16:2  root stylesheet";
+  content: "Error: Undefined mixin.\a    \2577 \a 16 \2502  \250c      @include mediaquery-mobile(){\a 17 \2502  \2502      display: grid;\a 18 \2502  \2502      \a 19 \2502  \2514      }\a    \2575 \a   scss\\paginas.scss\\servicios.scss 16:2  root stylesheet";
 }

@@ -14,6 +14,10 @@ body {
   overflow-x: hidden;
 }
 
+h1 {
+  color: brown;
+}
+
 header {
   background-color: peru;
   display: flex;
@@ -57,7 +61,6 @@ header ul li a {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-  margin-left: 47vw;
   font-size: 18px;
 }
 
@@ -132,7 +135,7 @@ footer {
 }
 
 .index-dos {
-  font-size: 50px;
+  font-size: 45px;
   text-transform: uppercase;
   padding: 12px;
 }
@@ -457,12 +460,9 @@ h2 {
   padding: 8%;
 }
 
-.mapas {
-  padding: 12%;
-}
 @media (max-width: 660px) {
-  .mapas {
-    width: 90%;
+  #mapaS {
+    width: 200%;
     height: 900%;
   }
 }
@@ -470,11 +470,19 @@ h2 {
 .numero {
   margin-left: 34%;
 }
+@media (max-width: 660px) {
+  .numero {
+    margin-left: 5%;
+  }
+}
 
+.map {
+  padding: 12px;
+}
 @media (max-width: 660px) {
   .map {
-    width: 100%;
-    height: 900%;
+    width: 350px;
+    height: 400px;
   }
 }
 

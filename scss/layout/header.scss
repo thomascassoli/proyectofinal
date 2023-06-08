@@ -16,7 +16,9 @@ body{
     
     
 }
-
+h1{
+  color: $color_2;
+}
 header {
     background-color: $color-primario;
     display: flex;
